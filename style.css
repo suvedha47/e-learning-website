@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 23px 13%;
+    transition: all.40s ease;
+}
+.logo {
+    font-size: 50px;
+    font-weight: 12px;
+    color: white;
+
+}
+
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    padding:10px 22px;
+    transition:all.40s ease;
+}
+.navbar a:hover{
+    color: blueviolet;
+    background-color: #22100d;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+.header-icons i{
+    margin-left: 10px;
+    font-size:24px;
+    color:black;
+    transition:all.40s ease;
+    margin-right: 15px;
+}
+.header-icons i:hover{
+    transform: scale(1.2);
+    color:red;
+}
+#menu-icon{
+    font-size: 34px;
+    color:black;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding-top: 180px;
+    padding-left: 90px;
+}
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.home-text h1{
+    font-size: 60px;
+    margin: 15px 0 15px;
+    color: white;
+}
+.home-text h6{
+   
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.home-text p{
+    color: white;
+    font-size: 20px;
+    font-weight: 50px;
+    margin-bottom: 48px;
+}
+.latter form{
+    width: 100%;
+    max-width: 460px;
+    position:relative;
+}
+.latter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    padding: 16px 140px 16px 15px;
+    border:2px solid black;
+    border-radius: 2px solid black;
+    border-radius: 30px;
+}
+.latter form input:last-child{
+    position:absolute;
+    display: flex;
+    border: none;
+    padding: 18px 20px;
+    margin-left: 30px;
+    background:black;
+    color: white;
+    margin-left: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 4px;
+    right: 1px;
+}
+header.sticky{
+    background: black;
+    padding: 12px 13%;
+    box-shadow: 0px 4px 15px rgb(0 0 0/8%);
+}
+header{
+    background-color: rgb(130, 44, 106);
+}
+.home{
+    background: url(learning.jpeg);
+}
+.center-text{
+    text-align: center;
+    padding-bottom: 20px;
+    line-gap-override: 2px;
+}
+.center-text h5{
+    color: black;
+    font-size: 20px;
+    font-weight: 30px;
+}
+.center-text h2{
+    color: black;
+    font-size: 15px;
+    font-weight: 20px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+    background-color: lightgray;
+    position:relative;
+
+}
+.box img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+.categories-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding: 10px;
+}
+.main-btn{
+    text-align: center;
+    text-decoration: none;
+    color: #22100d;
+
+}
+.row{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 15px;
+    background-color: lightgray;
+    position:relative;
+}
+.courses-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding: 10px;
+}
+.about-text h2{
+    font-size: 20px;
+    font-weight: 30px;
+}
+.about-text p{
+    font-size:18px;
+    font-weight: 20px;
+}
+.about-text h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 20px;
+}
+.about-text h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 20px;
+}
+.btn{
+    text-decoration: none;
+    font-size: 18px;
+}
+.contact-content li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 20px;
+}
+
+
+
+.main-content{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 120px;
+    background-color: #22100d;
+    
+    
+    
+}
+.last-text{
+    font-size: 20px;
+    font-weight: 25px;
+    text-align: center;
+    padding-top: 30px;
+    color: black;
+    background-color:rgb(119, 32, 119) ;
+  
+}
+.row img{
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+.btn{
+    padding: 20px;
+    text-align: center;
+    padding: 50px;
+    color: red;
+}
+.cta-image img{
+    padding-left: 250px;
+}
+
+
